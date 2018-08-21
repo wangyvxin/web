@@ -1,0 +1,71 @@
+@media (min-width: 375px) {
+	.head .s li:last-child a{
+    position: relative;
+    top: -6px;
+    right:-78px;
+    background: none;
+}
+}
+
+
+@media (min-width:414px) {
+	.head .s li:last-child a{
+    position: relative;
+    top: -6px;
+    right:-105px;
+    background: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

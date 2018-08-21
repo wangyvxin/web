@@ -1,0 +1,362 @@
+body,div,ul,li,h3,input{margin: 0;padding:0 }
+li{list-style: none;}
+a{text-decoration: none;}
+body{width: 100%;}
+
+
+/*导航*/
+
+
+.tb{
+    height:30px;
+    width: 100%;
+    background:#fff;
+    z-index: 10;
+    margin: 0;
+    padding:10px 2px;
+}
+
+.tb p{
+	margin-top:-25px;
+	text-align: center;
+	line-height:10px;
+}
+
+.tb span{
+	position:absolute;
+	right:5px;top: 8px
+}
+.tb span img{
+	width:30px;
+}
+.tb span .bj{
+	position: relative;
+	top:5px;
+	right: 8px;
+}
+
+.tb .fh img{
+	width: 30px;
+	transform:rotateY(180deg);
+}
+
+.tb span a{
+	color: #333333;
+}
+
+
+
+
+
+
+
+
+
+
+
+.head .f{
+	width:100%;
+	height:35px;
+	border-bottom:1px solid #E7E9E8;
+	border-top:1px solid #E7E9E8;
+	background: #fff;
+}
+.head .f li{
+	float: left;
+	width:32%;
+	overflow: hidden;
+}
+
+.head .f li a{
+	display: block;
+	height:35px;
+	line-height:35px;
+	text-align: center;
+	font-size:0.8rem;
+	color: #333333;
+	padding-left:9%;
+}
+.head .f li:nth-child(2){
+	border-left:1px solid #E7E9E8;
+	border-right:1px solid #E7E9E8;
+}
+
+.head .f li a span img{
+    width: 15px
+}
+
+
+.head .f li:nth-child(3) a span img{
+	width: 25px
+}
+
+.head .f li:nth-child(1) a span img:first-child{
+	position:relative;
+	top:-4px;
+	left:8px;
+    transform:rotateZ(-180deg);
+}
+
+.head .f li:nth-child(1) a span img:last-child{
+	position: relative;
+	top:7px;
+	left:-11px;
+}
+
+.head .f li:nth-child(2) a span img:first-child{
+	position:relative;
+	top:-4px;
+	left:8px;
+    transform:rotateZ(-180deg);
+}
+
+.head .f li:nth-child(2) a span img:last-child{
+	position: relative;
+	top:7px;
+	left:-11px;
+}
+
+.head .f li:nth-child(3) a span img{
+	position: relative;
+	top:8px;
+}
+
+.head .f li:nth-child(3) a{
+    line-height:30px;
+    margin-top:-2px
+}
+
+.head .s{
+	width:100%;
+	height:30px;
+	border-bottom:1px solid #E7E9E8;
+	background: #FAFAFA;
+	line-height:25px
+}
+
+
+.head .s li{
+	float:left;
+    margin: 0 3px;
+}
+
+.head .s li a{
+	font-size:0.6rem;
+	font-weight: bold;
+	padding:3px 6px;
+	background: #F4F4F4;
+	color: #333333; 
+}
+.head .s li:last-child a{
+    position: relative;
+    top: -6px;
+    right:-18px;
+    background: none;
+}
+
+.head .s li:last-child img{
+    width: 25px;
+    position: relative;
+    top:8px;
+    left:-2px
+}
+
+
+
+
+
+.top{
+	width: 100%;
+	height: 30px;
+	background: #537370;
+	text-align: center;
+	line-height:30px;
+	margin-top:20px;
+}
+.top a{
+	color: #fff;
+	font-size:0.8rem;
+}
+
+.top img{
+	width: 30px;
+    position: relative;
+    top: -41px;
+    ;left:85px
+}
+
+.sele{
+	width: 100%;
+	margin-top: 10px
+}
+.sele>ul{
+	width: 100%;
+	margin: 10px auto;
+}
+.sele>ul>li>img{
+	width:80px
+}
+
+.sele>ul>li{
+	background: #fff;
+	
+	border-top: 1px solid #E9EAEB;
+	border-bottom: 1px solid #E9EAEB;
+
+}
+.sele>ul>li:first-child{
+	width: 100%;
+    height: 50px;
+    line-height:50px;
+    border-bottom: none;
+
+}
+
+.sele>ul>li:first-child span p{
+	position: relative;
+	top: -45px;
+	left:80px;
+	font-size: 0.6rem;
+	background: #537370;
+	display: block;
+	width:64px;
+	height:22px;
+	color: #fff;
+	line-height:20px;
+	text-align: center;
+}
+
+
+
+.sele>ul>li:first-child span{
+	font-size: 1.2rem;
+	margin-left: 1%
+}
+
+.sele>ul>li input{
+	margin-left: 5%
+}
+.sele>ul>li:last-child{
+	width: 100%;
+	height: 100px;
+}
+.sele>ul>li:last-child img{
+	position: relative;
+	top:10px
+}
+
+.sele>ul>li:last-child input{
+	position: relative;
+	top: -20px
+}
+
+.sele>ul>li:last-child .jg{
+	width:50%;
+	height:100%;
+	position: relative;
+    top:-80px;
+    left:120px
+}
+.sele>ul>li:last-child .jg li{
+width: 100%;
+overflow: hidden;
+}
+
+.sele>ul>li:last-child .jg li p{
+    font-size:0.8rem;
+    height:20px;
+    margin: 0;
+}
+
+.sele>ul>li:last-child .jg li:nth-child(3){
+	margin-top:15%;
+}
+
+.sele>ul>li:last-child .jg li:nth-child(4){
+	position: relative;
+	top: -20%;
+	left:98%;
+width: 30px}
+
+.qt{
+	width: 100%;
+    margin-top:20px;
+    background: #fff;
+    padding-top: 20px;
+    height:1800px; 
+}
+
+.qt .qt-top{
+	width: 100%;
+	height:
+}
+
+.qt .qt-top>img{
+	width:100%;
+}
+
+
+
+
+.jx-foot{
+	position: fixed;left: 0;
+	bottom: 0;
+	background: #fff;
+	width: 100%;
+	height: 50px;
+}
+
+.jx-foot ul li{
+	float: right;
+	height:50px;	
+	line-height: 50px;
+}
+
+.jx-foot ul li:last-child p{
+    margin-top: 0;
+}
+
+
+.jx-foot ul li:first-child a{
+	width:120px;
+	height: 50px;
+	background: #B4C0C0;
+	text-align: center;
+	display: block;
+	color: #333333;
+	margin-left: 5px
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

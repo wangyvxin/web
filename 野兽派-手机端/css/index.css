@@ -1,0 +1,233 @@
+/*header 头部*/
+header{
+  width: 100%;
+  height:70px;
+  margin: 0 auto;
+}
+
+header h4{
+  margin:0 auto;
+  text-align: center;
+}
+
+header span img{
+  width: 20px;
+}
+header ul{
+    width: 90%;
+    height:50px;
+    margin: 0 auto;
+}
+
+header ul li{
+  float: left;
+  padding:10px 10px;
+
+}
+
+header ul li a{
+  color: #7C7C7C
+}
+
+
+
+
+
+
+/*banner*/
+
+/*轮播图*/
+
+.lbt{
+ 	width:100%;
+ 	height:300px;
+ 	float: left;
+  position: relative;
+  margin-top:10px;
+  overflow: hidden;
+ }
+.lbt ul{
+	width:500%;
+ 	height:300px;
+  display:flex;
+  justify-content:space-around;
+ 	transition: 1s 2s lunbo;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation:lunbo 15s ease 2s infinite normal; 
+ 	margin-left:2px;
+}
+
+.lbt ul li{
+  width:20%;
+ 	height:300px;
+  margin: 0; 
+  text-align: center;
+}
+.lbt ul li img{
+  width:200px;
+}
+@keyframes lunbo{
+
+  0%{left: 0;top: 0}
+  25%{left:-99%;}
+  50%{left:-200%;}
+  75%{left:-300%;} 
+  100%{left:-400%;}
+}
+
+
+/*content 主体部分*/
+
+content .jx{
+  width:90%;
+  margin:0 auto;
+  height:4600px;
+  overflow: hidden;
+}
+
+content .jx span{
+  width:100%;
+  height:50px; 
+}
+
+content .jx h4{
+  margin-top:-13px;
+}
+
+content .jx ul{
+  width: 100%;
+  height:80%;
+}
+
+content .jx ul li{
+  line-height:20px
+}
+content .jx ul li img{
+  width: 100%;
+}
+
+
+content .jx ul li a p:nth-child(2){
+  color:#C01815;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+content .jx ul li a h3{
+  color:#000;
+  padding-top: 10px;
+
+}
+
+content .jx ul li a p:last-child{
+  color:#000;
+  font-size:0.6rem;
+}
+content .jx ul li:first-child h3{
+  margin-top: -11px
+}
+content .jx ul li:nth-child(2) h3{
+  margin-top: -11px
+}
+content .jx ul li:nth-child(3) h3{
+  margin-top: -11px
+}
+
+content .jx ul li:last-child{
+  margin-top:30px
+}
+
+content .jx ul li:last-child img{
+  margin-top: 20px
+}
+
+content .jx ul li:last-child h3{
+  font-size: 16px
+}
+
+content .sp{
+  width:90%;
+  margin:0 auto;
+  height:1200px;
+}
+
+content .sp ul{
+  width: 100%;
+  height: 250px;
+
+}
+
+content .sp ul li{
+  width: 45%;
+  height:100%;
+  float:left;
+  margin:0 auto;
+}
+
+content .sp ul li img{
+  width: 100%
+}
+
+content .sp ul li:nth-child(2){
+  margin-left:27px;
+}
+
+content .sp ul li a p:nth-child(2){
+  font-size:0.8rem;
+  color: #000;
+  margin-top:2px;
+}
+
+content .sp ul li a p:nth-child(4){
+  font-size:0.6rem;
+  color: #000;
+  margin-top:2px;
+  font-weight: bold;
+}
+
+content .sp ul li a span{
+  font-size:0.6rem;
+  color: #000;
+  display: block;
+  margin-top:-5px
+}
+
+
+@media (min-width: 375px) {
+   header ul li:first-child{
+    margin-left:40px
+   }
+}
+
+
+@media (min-width: 414px) {
+   header ul li:first-child{
+    margin-left:50px
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

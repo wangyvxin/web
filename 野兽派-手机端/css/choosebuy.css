@@ -1,0 +1,95 @@
+.bt{
+	width:90%;
+	height:200px;
+	margin: 0 auto;
+}
+
+.bt p{
+	position: relative;
+	top:-42px;
+	left:135px;
+	font-size: 0.7rem;
+	display: block;
+	width:50px;
+	margin: 0;
+}
+
+.bt ul{
+	width: 100%;
+	height:100px;
+	margin-top: -10px
+}
+
+.bt ul li{
+	padding: 0;
+    margin: 5px 0;
+}
+
+.bt ul li a{
+	padding:8px 15px;
+	background: #000;
+	color: #fff;
+    font-size: 0.8rem
+}
+
+.bt ul li a:nth-child(2){
+	margin-left: 10px
+}
+
+.dh{
+	width: 100%;
+	margin-top: -50px;
+}
+
+.dh ul{
+	width: 100%;
+	height: 100%;
+}
+
+.dh>ul>li{
+    width: 100%;
+    position: relative;
+}
+.dh>ul>li span{
+	display: block;
+	width:100px;
+	margin: 0;
+	height:30px;
+	position: relative;
+	top:-30px ;
+	left:50px;
+	line-height: 10px
+}
+
+.dh>ul>li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	color: #000;
+}
+.dh>ul>li a h6{
+	line-height:50px;
+	margin-left: 20px;
+	padding: 0;
+	height:10px
+}
+.dh>ul>li .yc{
+	display: none;
+	margin-left: 45px;
+	width: 50%
+}
+.dh>ul>li .yc li{
+	margin-top: 15px
+}
+
+.dh>ul>li:hover .yc{
+	display: block;
+}
+
+
+
+
+
+
+
+
