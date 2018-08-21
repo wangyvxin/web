@@ -1,0 +1,93 @@
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #252525
+}
+
+body{
+	background: #F3F3F3
+}
+
+.zh{ 
+	width: 100%;
+	height: 100%;background: #F3F3F3
+}
+
+.zh .lb{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.zh .lb ul:first-child li:first-child img{
+	width: 80px
+}
+.zh .lb ul li img{
+	width: 20px;
+	margin-top: 10px;
+	margin-left: 10px
+}
+.zh .lb ul:first-child li:first-child{
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px solid #E6E8EC;
+
+}
+.zh .lb ul:first-child li:first-child a img{
+	margin-top:30px
+}
+.zh .lb ul li{
+    width: 100%;
+    height:40px;
+    background: #fff;
+    
+}
+
+.zh .lb ul:nth-child(2){
+	margin-top: 10px;
+}
+
+.zh .lb ul:nth-child(3){
+	margin-top: 10px;
+}
+.zh .lb ul:nth-child(3) li{
+	border-bottom:1px solid #E6E8EC 
+}
+
+
+.zh .lb ul:nth-child(4){
+	margin-top: 10px;
+}
+
+.zh .lb ul:last-child{
+	margin-top: 10px;
+}
+.zh .lb ul li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.zh .lb ul li a .fr{
+	float: right;
+	position: relative;
+	top:8px;
+	right:8px
+}
+
+.zh .lb ul li a .fl{
+	position: relative;
+	top: -3px;
+	left: 8px
+}
+
+
+.zh .lb ul:first-child li:first-child a .fl{
+	position: relative;
+	top: -10px;
+}
+
+
+
+

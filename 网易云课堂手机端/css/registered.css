@@ -1,0 +1,63 @@
+
+h3 {
+	position: relative;
+	top: -10px; 
+}
+
+a img{
+	width: 15px;
+	transform: rotateZ(90deg);
+}
+
+h3 span{
+     margin-left:80px; 
+}
+.login{width: 94%;margin:2px auto}
+.login ul{background: #fff;
+font-size: 1.2rem;padding: 10px 0 0 0;border-radius: 10px}
+.login ul li input{border:none;outline: none;line-height: 40px;
+padding-left: 2%;font-size: 1rem;width: 70%}
+.login ul li{padding-left: 4%;border-bottom: 1px solid #C1C1C1;
+list-style: none;
+margin-bottom: 20px}
+.login ul li:nth-child(3){padding-top: 10px;border-bottom: none;
+margin-left:15px;
+margin-top: 20px;
+width: 80%;
+}
+.login ul li:first-child{
+	margin-top: 20px
+}
+.login ul li:nth-child(3) input{
+	background: #2BC17A;
+	color: white;
+	font-size:1.2rem;
+	width: 100%;
+	border-radius:7px
+}
+
+
+.login ul li:last-child{
+	border: none;
+	color: black;
+font-size: 0.6rem;
+margin-left: -15px
+}
+
+.login ul li:last-child a{
+	color: #2BC17A;
+	text-decoration: none;
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,137 @@
+.test{
+    width: 100%;
+    border-top:1px solid #E9EAEE
+}
+.test .hd{
+    padding:10px 0;
+    margin-left:-10px
+}
+.test .nav{
+    position:fixed;
+    right:10px;
+    left:5%;
+    background: #F8F9FD;
+    height: 100%;
+    width: 29%
+}
+.test .nav a{
+    display:block;
+    padding:10px 5px;
+    color: #727888;
+    font-size:0.9rem;
+}
+.test .nav a:hover{
+    background: #FFFFFF;
+    border-left: 2px solid #1AA160
+}
+.test .bd{
+    width:63%;
+    height: 525px;
+    float: right;
+    margin-right: 10px;
+    overflow:hidden;
+}
+.test .bd .panel{
+    width:99%;
+    height: 100%;
+    overflow: auto;
+
+}
+.test .bd .panel:first-child{
+    margin-top: 0px;
+}
+
+.test .bd .panel img{
+    width: 95%;
+    margin-top:10px;
+    margin-left: 5px
+}
+
+.test .bd .tbtj span{
+    font-size: 0.7rem;
+    margin-left: -5px;
+    position: relative;
+    top: -5px
+}
+
+.test .bd .tbtj ul li a{
+    color:black;
+    font-style:'楷体';
+}
+
+.test .bd .tbtj ul li a img{
+    width: 20px;
+
+}
+
+.test .bd .tbtj p{
+    font-size:1rem;
+    height:15px;
+    margin-left: 15px
+}
+.test .bd .tp ul li{
+    overflow: hidden;
+    margin-bottom: 10px
+}
+.test .bd .tp ul li a span{
+    color: #33383E;
+    font-size: 0.7rem;
+}
+.test .bd .tp ul li img{
+   width: 10px;
+   transform:rotateZ(-90deg);
+}
+
+.test .bd .tp ul li .bg li{
+   float: left;
+   background: #F3F4F8;
+   border-radius:15px;
+   margin:5px 2px;
+   width: 30%;
+   height: 25px;
+   text-align: center;
+   line-height: 23px;
+   padding:0 1px
+}
+
+.test .bd .tp ul li .bg{
+    margin-top: 10px
+}
+
+.test .bd .tp ul li .bg li a{
+    color: #33383E;
+    font-size:0.7rem;
+    overflow: auto;
+}
+
+.test .bd .tp ul li .bg .yc{
+    width: 42%
+}
+
+.test .bd .tp ul li .bg .yc2{
+    width: 48%;
+    text-align: left;
+    padding:0 5px;
+}
+.test .bd .tp ul li .bg .yc3{
+    width: 40%
+}
+
+
+@media (min-width: 370px) {
+    .test .bd{
+    height:590px;
+}
+}
+
+@media (min-width: 400px) {
+    .test .bd{
+    height:680px;
+}
+}
+
+@media (min-height:800px) {
+    .test .bd{
+    height:770px;
+}
+}
