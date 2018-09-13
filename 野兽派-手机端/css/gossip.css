@@ -66,11 +66,11 @@
 	right:25px;
 	display: none;
 } 
-
+/* 
 .bt+div>ul>li ul li:nth-child(2):hover a:nth-child(1) img{
 	display: block;
 }
-
+ */
 
 
 .bt+div>ul>li:last-child{
