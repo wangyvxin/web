@@ -481,7 +481,7 @@ box-pack:center;
  	-moz-transform:translateX(-20px);
  	-o-transform: translateX(-20px);
  	-ms-transform: translateX(-20px);
-	-webkit- all 1.6s ease 0s;
+	-webkit-all: 1.6s ease 0s;
 	-moz-transition: all 1.6s ease 0s;
 	-otransition: all 1.6s ease 0s;
 	-ms-transition: all 1.6s ease 0s;
@@ -866,9 +866,6 @@ box-pack:center;
 		left: -800px;
 	}
 }
-
-
-
 .brand-vr{
 	height: 40px;
 	width: 1230px;
@@ -1606,7 +1603,8 @@ width: 200px;
 }
 .zf ul li{
 	width: 250px;
-	height: 250px;
+	height:155px;
+	overflow: hidden;
 
 	
 }
@@ -1652,10 +1650,10 @@ width: 200px;
 .z-text-1 img:hover{
 	transition:all;
 
-	-webkit-transform: scale(1.2,1.2);
-	 -moz-transform: tscale(1.2,1.2);
-	   -o-transform: tscale(1.2,1.2);
-	   -ms-transform: scale(1.2,1.2);
+	-webkit-transform: scale(1.1,1.1);
+	 -moz-transform: tscale(1.1,1.1);
+	   -o-transform: tscale(1.1,1.1);
+	   -ms-transform: scale(1.1,1.1);
 	
 	-moz-transition:all 0.5s ease-in 0s;
 	-webkit-transition:all 0.5s ease-in 0s;
